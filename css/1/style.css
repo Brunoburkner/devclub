@@ -1,0 +1,37 @@
+/* o "*" significa tudo */
+
+#titulo {
+  color: aqua;
+  font-size: 55px;
+}
+
+#paragrafo {
+  color: purple;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#botão {
+  background: black;
+
+}
+
+#outro-botão {
+  background: white;
+}
+
+
+#outro-paragrafo {
+   color: rgb(0,80,0);
+}
+
+/*RGB
+  -RED
+  -GREEN
+  -BLUE
+
+  HEXADECIMAL
+  # PEGAR NA INTERNET O CODIGO DA COR
+  EX= #19203B
+*/
+

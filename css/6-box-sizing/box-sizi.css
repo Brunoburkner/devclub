@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box; /*LIMITA O TAMANHO PELO WIDTH E HEIGHT*/
+}
+
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: mediumslateblue;
+    padding: 20px;
+    border: 10PX solid purple;
+}
+/* BOX SIZING*/
+
+
+

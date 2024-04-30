@@ -1,0 +1,59 @@
+.box {
+    background: navy;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+.box-2 {
+    background:goldenrod ;
+}
+
+.box-3 {
+    background: palevioletred;
+}
+
+/*
+
+
+    DISPLAY
+
+    - BLOCK
+    -INLINE
+    -INLINE-BLOCK
+
+
+    -GRID   (APRENDER MAIS PARA FRENTE)
+    -FLEX
+
+
+    BLOCK
+    -VEM COMO PADRÃO: DIV, SECTION, P, H1, H2, UL, LI, ARTICLE...
+
+    -OCUPA 100% DA LARGURA DO ELEMENTO PAI
+    -SEMPRE OCUPA TODA SUA LINHA
+    -ALTURA DEFINIDA DE ACORDO COM O CONTEUDO
+    -PODEMOS DEFINIR HEIGHT E WIDTH
+    -PODEMOS DEFINIR VALORES DE MARGIN
+
+    INLINE
+    -VEM COMO PADRÃO A, SPAN,B, I ...
+
+    -ELEMENTOS EM LINHA
+    -NÃO PERMITE ALTERAR HEIGHT E WIDTH
+    -NÃO PODEMOS DEFINIR VALORES DE MARGIN,TOP E BOTTOM
+    -GANHA COMPORTAMENTO DE UMA PALAVRA
+
+
+    INLINE-BLOCK
+    
+    -ELEMENTOS EM LINHA, PORÉM COM CARACTERÍSTICAS DO DISPLAY BLOCK
+    -ALTURA E LARGURA PODEM SER ALTERADAS 
+    
+    
+    
+    sites importantes pra design(n muito usado por programadores)
+    -adobe xd
+    -figma 
+    */ 
+    

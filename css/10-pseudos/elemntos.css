@@ -1,0 +1,39 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    border: 1px solid red;
+    color: blue;
+}
+
+input::placeholder {
+    color: rgb(197, 18, 197);
+}
+
+span {
+    color: fuchsia;
+}
+
+p {
+    color: orangered;
+}
+
+p::first-line {
+    color: rgb(175, 9, 161);
+}
+
+a {
+    color: brown;
+}
+
+a::after {
+    content: "🚀";
+}
+
+a::before {
+    content: "😜";
+}

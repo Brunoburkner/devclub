@@ -1,0 +1,37 @@
+.avô {
+    font-size: 100px;
+    width: 10vw;
+    height: 10vh;
+
+}
+    
+
+.pai {
+   width: 100px;
+   height: 100px;
+   background: blue;
+}
+
+.filho {
+   width: 50%;
+   height: 50%;
+   background: red;
+}
+
+/*
+    UNIDADE DE MEDIDAS
+
+
+    ->ABSOLUTAS
+    1 POLEGADA = 2,54CM /100
+       px (pixels) 1/100 polegadas 0,254mm
+       in (inches/polegadas)
+       cm/ mm (centimetros / milímetro)
+
+    ->RELATIVAS
+       % CALCULA O TAMANHA RELATIVO AO ELEMENTO PAI
+       VW (VIEW WIDTH) 1VW É 1% DA LARGURA DA JANELA DO NAVEGADOR
+       VH (VIEW HEIGHT) 1VH É 1% DA ALTURA DA JANELA DO NAVEGADOR
+       EM É UMA UNIDADE RELATIVA AO ELEMENTO PAI
+       REM É UMA UNIDADE RELATIVA AO ELEMENTO RAIZ
+*/ 

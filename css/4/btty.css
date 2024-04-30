@@ -1,0 +1,24 @@
+
+
+h1 {
+    color: aqua;
+    font-size: 64px;
+    font-family: 'roboto', sans-serif ;
+    font-style: italic;
+    text-shadow: 10px 10px 10px #1896b6 ;
+    /* 1-tanto de sombra na horizontal; 2-sombra na vertical; 3-quanto esfumaçada vai ser */ 
+}
+
+p {
+    color: aquamarine;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'roboto', sans-serif;
+    font-style: italic;
+    line-height: 50px; 
+    letter-spacing: 5px;
+    word-spacing: 20px;
+    text-align: center;
+    text-transform: lowercase; /*lowercase é tudo minusculo/upercase tudo maisculo*/
+    text-decoration: underline;
+}

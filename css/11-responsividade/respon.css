@@ -1,0 +1,37 @@
+/* responsividade
+
+    ALL: Para todos os dispotivos
+    BRAILLE: Para dispositivos táteis
+    EMBOSSED: Para dispositivos que imprimem em braille
+    HANDHELD: Para dispositivos portáteis, geralmente com telas pequenas e banda limitada.
+    PRINT: Para impressão em papel
+    PRAJECTION: Para apresentações como PPS
+    SCREEN: Para monitores ou dispositivos com telas coloridas e resoluções adequadas.
+    SPEECH: Para sintedizadores de voz. As CSS 2 tem uma especificação de CSS chamada Aural,onde podemos formatar a voz dos sintedizadores.
+    
+    ORIENTAÇÂO
+    PORTRAIT-> altura maior que a largura
+    LANDSCAPE -> largura maior que a altura
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    height: 700px;
+    width: 700px;
+    background: blue;
+}
+
+@media screen and (max-width: 600px) and (orientation: landscape){
+    div{
+        background:  red;
+        height: 200px;
+        width: 200px;
+        
+    }
+}
